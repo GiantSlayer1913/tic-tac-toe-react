@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react';
 import { css } from 'glamor'
 import { Auth } from 'aws-amplify'
 
@@ -72,7 +72,6 @@ class SignUp extends React.Component {
         <div {...css(styles.button)} onClick={this.confirmSignUp}>
           <span>Confirm Sign Up</span>
         </div>
-
 </div>
 )
 }
